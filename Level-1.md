@@ -20,3 +20,7 @@ ollama stop
 ```
 ollama stop deepseek-r1:1.5b
 ```
+#### Remove Model (FreeUp space)
+```
+ollama remove deepseek-r1:1.5b
+```
