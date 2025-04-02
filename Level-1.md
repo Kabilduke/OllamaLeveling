@@ -1,4 +1,4 @@
-#### $How\ to\ download\ LLM\ models\ locally\ for\ ex:\ (deepseek-r1:1.5b)$
+#### $How\ to\ 'download'\ and\ 'Run'\ LLM\ models\ locally\ for\ ex:\ (deepseek-r1:1.5b)$
 ```
 ollama run deepseek-r1:1.5b
 ```
