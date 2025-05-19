@@ -7,6 +7,19 @@ pip install ollama
 ```py
 import ollama
 
+response = ollama.chat(
+    model='llama3.2:1b', #Enter Model name
+    messages=[{
+        'role': 'user',
+        'content': "What are the uses of GitHub?"
+    }]
+)
+
+print(response['message']['content'])
+```
+
+```py
+# With Stream
 for chunk in ollama.chat(
   model = 'llama3.2:1b', #Enter Model name
   messages = [{
