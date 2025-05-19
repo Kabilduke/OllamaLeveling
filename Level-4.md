@@ -1,6 +1,6 @@
 <h1 align= center>Ollama in Notebook and VSCode</h1>
 
-## 1. Ollama
+## 1. $Ollama$
 ```
 pip install ollama
 ```
